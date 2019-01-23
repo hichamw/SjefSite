@@ -42,13 +42,16 @@
               <a class="nav-link js-scroll-trigger" href="#challenge">The Challenge</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#discoveryFase">Discovery Fase</a>
+              <a class="nav-link js-scroll-trigger" href="#empathize">Empathize</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#ideationFase">Ideation Fase</a>
+              <a class="nav-link js-scroll-trigger" href="#define">Define</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#realisationFase">Realisation Fase</a>
+              <a class="nav-link js-scroll-trigger" href="#ideation">Ideation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#prototyping">Prototyping</a>
             </li>
           </ul>
         </div>
@@ -61,7 +64,7 @@
         <div class="row h-100">
           <div class="col-lg-12 my-auto">
             <div class="header-content mx-auto">
-              <img src="./img/sjef-logo-def.svg">
+              <img class="img-fluid" src="./img/sjef-logo-def.svg">
             </div>
           </div>
         </div>
@@ -88,11 +91,15 @@
     </section>
 
 
-    <section class="features" id="discoveryFase">
+    <section class="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Discovery Fase</h2>
-          <p class="text-muted">Emphasize the user</p>
+          <div class="titleContainer">
+            <h2 class="sectionTitle titleNumber">Empathize</h2>
+            <h2 class="opacityNumber titleNumber" id="empathize">01</h2>
+          </div>
+          
+          <h3 class="subHeading">User Survey</h3>
           <p>Empathie is simpel de mogelijkheid om de gevoelens van een ander te begrijpen en te kunnen delen. Empathie is een groot
           gedeelte van de User Experience omdat we ontwerpen voor deze gebruikers en we het nodig hebben om ze te begrijpen. Om
           dit probleem te tackelen hebben wij een enquête uitgezet bij de doelgroep om erachter te komen waar hun pijnpunten
@@ -102,87 +109,129 @@
           ontdekken in resultaten. De uitkomsten en het patroon gaf ons ontwerp criteria met welke wij rekening hebben moeten
           houden in onze concepten. Ook hielp dit bij om onze concepten verder te gaan uitwerken.</p>
         </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button" id="homeButton">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
+        <div class="container-fluid sectionContainer">
+          <div class="row">
+            <div class="col-sm-4 text-center">
+              <div class="dot">
+                <span class="percentageDot">77%</span>
               </div>
+              <p>Van de mensen doet minder dan 3 keer per week boodschappen.</p>               
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="dot">
+                <span class="percentageDot">71%</span>
+              </div>
+              <p>Van de mensen kookt minder dan 3 keer per week</p>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="dot">
+                <span class="percentageDot">80%</span>
+              </div>
+              <p>Van de mensen staat langer dan 30 minuten in de keuken</p>
             </div>
           </div>
-          <div class="col-lg-8">
-            <h3>De belangrijkste inzichten waren:</h3>
-            <div class="container-fluid">
-              <div class="row">
-                <div>
-                  <p class="inzicht">"De gebruikers besteden gemiddeld tussen de 20 en 40 minuten in de keuken"</p>
-                </div>
+          <div class="row">
+            <div class="col-sm-6 text-center">
+              <div class="dot">
+                <span class="percentageDot">70%</span>
               </div>
-              <div sty  class="row">
-                <div>
-                  <p class="inzichtRight">"Het beginnen met koken is voor de gebruikers een obstakel"</p>
-                </div>
+              <p>Van de mensen besteed maximaal 7 euro per maaltijd</p>
+            </div>
+            <div class="col-sm-6 text-center">
+              <div class="dot">
+                <span class="percentageDot">51%</span>
               </div>
-              <hr>
-              <div class="row">
-                <div>
-                  <p class="inzicht">"De grootste frustratie is dat de gebruiker niet weet wat hij/zij wil koken"</p>
-                </div>
-              </div>
-              <div class="row">
-                <div>
-                  <p class="inzichtRight">"De gebruikers willen graag besparen op hun inkopen"</p>
-                </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div>
-                  <p class="inzicht">"De gebruiker wil foodwaste tegen gaan."</p>
-                </div>    
-              </div>
+              <p>Van de mensen besteld 2 keer of meer per week.</p>
             </div>
           </div>
+        </div>
+        <div class="container sectionContainer">
+          <h3 class="subHeading">Persona</h3>
+          <img class="w-100" src="./img/persona1.png">
+        </div>
+        <div class="container sectionContainer">
+          <h3 class="subHeading">User Journey</h3>
+          <!-- TODO:content voor User Journey -->
         </div>
       </div>
     </section>
 
 
 
-    <section class="contact bg-primary" id="ideationFase">
+    <section class="contact">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Ideation Fase</h2>
-          <hr>
-          <h3>Defineer het probleem</h3>
-          <p>Dit is waar we onze bevindingen uit de discovery fase verwerken en dingen gaan bekijken vanuit de gebruikers ‘point of
-          view’. We definiëren het probleem wat en voor wie, wij het gaan oplossen.</p>
-          <hr>
-          <p>Vanuit de research welke wij gedaan hebben kwam al snel naar voren dat er enorm veel kook oplossingen bestaan en/of
-          zijn uitgeprobeerd. Het voelt of het ‘ei van Columbus’ al is uitgevonden en daarom moeten wij een juiste vertaalslag
-          maken. Binnen onze concepten zijn wij ons gaan richten op starters welke willen besparen op het gebied van koken,
-          weinig tot geen ervaring in de keuken hebben en welke voedselverspilling willen tegengaan.
-          Ons doel is om een gereedschap te ontwikkelen dat starters helpt om besparend en groen koken onder de knie te krijgen.</p>
-
-          <h3>Ideate</h3>
-          <p>Op dit punt wisten we wat het probleem was en voor wie we het aan het ontwerpen waren. Het was nu tijd om met ideeën te
-          komen welke het probleem zou tackelen. Uit onze bevindingen hebben wij 3 verschillende concepten tot stand weten te
-          brengen.</p>
+          <div class="titleContainer">
+            <h2 class="sectionTitle titleNumber">Define</h2>
+            <h2 class="opacityNumber titleNumber" id="define">02</h2>
+          </div>
+          <h3 class="subHeading">Belangrijkste pijnpunten</h3>
+          <p>- De gebruikers besteden gemiddeld tussen de 20 en 40 minuten in de keuken</p>
+          <p>- Het beginnen met koken is voor de gebruikers een obstakel</p>
+          <p>- De grootste frustratie is dat de gebruiker niet weet wat hij/zij wil koken</p>
+          <p>- De gebruikers willen graag besparen op hun inkopen</p>
+          <p>- De gebruiker wil foodwaste tegen gaan.</p>
         </div>
       </div>
     </section>
 
-    <section class="features" id="realisationFase">
+    <section class="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Realisation Fase</h2>
+          <div class="titleContainer">
+            <h2 class="sectionTitle titleNumber">Ideation</h2>
+            <h2 class="opacityNumber titleNumber" id="ideation">03</h2>
+          </div>
+          <h3 class="subHeading">Concepten</h3>
+          <div class="sectionContainer">
+            <h3 class="subHeading">Concept 1. Sjef</h3>
+            <img class="w-100" src="./img/Sjef_Conceptposter_01.png">
+          </div>
+          <div class="sectionContainer">
+            <h3 class="subHeading">Concept 2. Cookbuddy</h3>
+            <img class="w-100" src="./img/Concept_CookBuddy.png">
+          </div>
+          
+          <div class="sectionContainer">
+            <h3 class="subHeading">Concept 3. Share de chef</h3>
+            <img class="w-100" src="./img/Poster_Share_de_Chef.png">
+          </div>
+          <h3 class="subHeading">Wij gaan door met:</h3>
+          <img src="./img/sjef-logo-def.svg">
+          <p>Na de presentatie bij de opdrachtgever en verkregen gerichte feedback, hebben wij besloten omv erder te gaan met het
+          concept ‘Sjef’. Sjef sluit het beste aan bij de vraag van de opdrachtgever.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <div class="titleContainer">
+            <h2 class="sectionTitle titleNumber">Prototyping</h2>
+            <h2 class="opacityNumber titleNumber" id="prototyping">04</h2>
+          </div>
+          <h3 class="subHeading">Schetsen</h3>
+          <img class="w-100" src="./img/schetsen.png">
+          <p>Schetsen waren de eerste stap om de outlines van onze applicatie duidelijk te krijgen en zodat men een beeld kon
+          schetsen hoe de applicatie er visueel uit zou komen te zien.</p>
+          
+          <h3 class="subHeading">Wireframes</h3>
+          <p>Deze visuele gids vertegenwoordigd het geraamte van de app. Het heeft ons geholpen om de Interface elementen te kunnen
+          orderen waneer we meer op de functionaliteit gefocust waren dan op hoe de app er eindstand uit zou zien. A.d.hv. van
+          wireframes hebben we snel en gemakkelijk kunnen testen zodat het voor ons duidelijk was of we de toegepaste elementen
+          wel juist gebruikten.</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="w-100" src="./img/wireframe1.png" alt="Home Scherm">
+            </div>
+            <div class="col-sm-6">
+              <img class="w-100" src="./img/wireframe2.png" alt="Recept Scherm">
+            </div>
+          </div>
+
+          
 
         </div>
       </div>

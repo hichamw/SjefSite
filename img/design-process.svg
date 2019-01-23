@@ -1,5 +1,5 @@
 
-<svg width="546px" height="64px" viewBox="0 0 546 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="492px" height="64px" viewBox="0 0 492 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <rect id="path-1" x="0" y="24" width="70" height="42" rx="6.4"></rect>
         <filter x="-22.9%" y="-35.7%" width="151.4%" height="185.7%" filterUnits="objectBoundingBox" id="filter-2">
@@ -7,25 +7,25 @@
             <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.444169855   0 0 0 0 0.442084304   0 0 0 0 0.442084304  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-3" x="114" y="24" width="70" height="42" rx="6.4"></rect>
+        <rect id="path-3" x="100" y="24" width="70" height="42" rx="6.4"></rect>
         <filter x="-22.9%" y="-35.7%" width="151.4%" height="185.7%" filterUnits="objectBoundingBox" id="filter-4">
             <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.444169855   0 0 0 0 0.442084304   0 0 0 0 0.442084304  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-5" x="227" y="24" width="70" height="42" rx="6.4"></rect>
+        <rect id="path-5" x="200" y="24" width="70" height="42" rx="6.4"></rect>
         <filter x="-22.9%" y="-35.7%" width="151.4%" height="185.7%" filterUnits="objectBoundingBox" id="filter-6">
             <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.444169855   0 0 0 0 0.442084304   0 0 0 0 0.442084304  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-7" x="341" y="24" width="70" height="42" rx="6.4"></rect>
+        <rect id="path-7" x="300" y="24" width="70" height="42" rx="6.4"></rect>
         <filter x="-22.9%" y="-35.7%" width="151.4%" height="185.7%" filterUnits="objectBoundingBox" id="filter-8">
             <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.444169855   0 0 0 0 0.442084304   0 0 0 0 0.442084304  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-9" x="454" y="24" width="70" height="42" rx="6.4"></rect>
+        <rect id="path-9" x="400" y="24" width="70" height="42" rx="6.4"></rect>
         <filter x="-22.9%" y="-35.7%" width="151.4%" height="185.7%" filterUnits="objectBoundingBox" id="filter-10">
             <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -33,13 +33,13 @@
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="A4" transform="translate(-29.000000, -671.000000)">
+        <g id="A4" transform="translate(-52.000000, -671.000000)">
             <g id="Design-Proces" transform="translate(0.000000, 604.000000)">
-                <g id="DESIGN_Proces" transform="translate(38.000000, 51.000000)">
-                    <path d="M65,44.5 L114,44.5" id="Line-Copy-3" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
-                    <path d="M178,44.5 L227,44.5" id="Line-Copy-4" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
-                    <path d="M292,44.5 L341,44.5" id="Line-Copy-5" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
-                    <path d="M406,44.5 L455,44.5" id="Line-Copy-6" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
+                <g id="DESIGN_Proces" transform="translate(61.000000, 51.000000)">
+                    <path d="M63,44.5 L112,44.5" id="Line-Copy-3" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M162,44.5 L211,44.5" id="Line-Copy-4" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M261,44.5 L310,44.5" id="Line-Copy-5" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
+                    <path d="M359,44.5 L408,44.5" id="Line-Copy-6" stroke="#979797" stroke-width="0.8" stroke-linecap="square"></path>
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                         <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -65,16 +65,16 @@
                         <tspan x="4.56900902" y="47">EMPATHISE</tspan>
                     </text>
                     <text id="DEFINE" fill="#707070" font-family="Helvetica" font-size="8" font-weight="normal" letter-spacing="1.75680008">
-                        <tspan x="129.061631" y="48">DEFINE</tspan>
+                        <tspan x="115.061631" y="48">DEFINE</tspan>
                     </text>
                     <text id="IDEATE" fill="#707070" font-family="Helvetica" font-size="8" font-weight="normal" letter-spacing="1.75680008">
-                        <tspan x="242.577256" y="48">IDEATE</tspan>
+                        <tspan x="215.577256" y="48">IDEATE</tspan>
                     </text>
                     <text id="PROTOTYPE" fill="#707070" font-family="Helvetica" font-size="8" font-weight="normal" letter-spacing="1.75680008">
-                        <tspan x="343.49479" y="48">PROTOTYPE</tspan>
+                        <tspan x="302.49479" y="48">PROTOTYPE</tspan>
                     </text>
                     <text id="TESTING" fill="#707070" font-family="Helvetica" font-size="8" font-weight="normal" letter-spacing="1.75680008">
-                        <tspan x="466.517215" y="48">TESTING</tspan>
+                        <tspan x="412.517215" y="48">TESTING</tspan>
                     </text>
                 </g>
             </g>
