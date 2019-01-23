@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width" />
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -53,6 +54,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#prototyping">Prototyping</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#onboarding">Onboarding</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -94,9 +98,19 @@
     <section class="features">
       <div class="container">
         <div class="section-heading text-center">
-          <div class="titleContainer">
+          <div class="titleContainer container-fluid">
             <h2 class="sectionTitle titleNumber">Empathize</h2>
             <h2 class="opacityNumber titleNumber" id="empathize">01</h2>
+            <!-- <div style="
+              background: rgba(255,241,80,0.70);
+              height: 606px;
+              width: 606px;
+              border-radius: 50%;
+              left: 476px;
+              top: -500px;
+              z-index: -1;
+              position: absolute;
+            "></div> -->
           </div>
           
           <h3 class="subHeading">User Survey</h3>
@@ -151,7 +165,7 @@
         </div>
         <div class="container sectionContainer">
           <h3 class="subHeading">User Journey</h3>
-          <!-- TODO:content voor User Journey -->
+          <img class="w-100" src="./img/customerJourney.png">
         </div>
       </div>
     </section>
@@ -160,10 +174,20 @@
 
     <section class="contact">
       <div class="container">
-        <div class="section-heading text-center">
+        <div class="section-heading text-center" style="margin-bottom:200px;">
           <div class="titleContainer">
             <h2 class="sectionTitle titleNumber">Define</h2>
             <h2 class="opacityNumber titleNumber" id="define">02</h2>
+            <!-- <div style="
+              background: rgba(255,232,55,0.70);
+              position: absolute;
+              height: 606px;
+              width: 606px;
+              border-radius: 50%;
+              left: -150px;
+              top: -400px;
+              z-index: -1;
+            "></div> -->
           </div>
           <h3 class="subHeading">Belangrijkste pijnpunten</h3>
           <p>- De gebruikers besteden gemiddeld tussen de 20 en 40 minuten in de keuken</p>
@@ -177,12 +201,23 @@
 
     <section class="features">
       <div class="container">
-        <div class="section-heading text-center">
+        <div class="section-heading text-center" style="margin-bottom: 250px;">
           <div class="titleContainer">
             <h2 class="sectionTitle titleNumber">Ideation</h2>
             <h2 class="opacityNumber titleNumber" id="ideation">03</h2>
+            <!-- <div style="
+              background: rgba(255,241,81,0.70);
+              position: absolute;
+              height: 276px;
+              width: 276px;
+              border-radius: 50%;
+              left: 300px;
+              top: -200px;
+              z-index: -1;
+            "></div> -->
+
           </div>
-          <h3 class="subHeading">Concepten</h3>
+          <h3 style="margin-bottom:80px">Concepten</h3>
           <div class="sectionContainer">
             <h3 class="subHeading">Concept 1. Sjef</h3>
             <img class="w-100" src="./img/Sjef_Conceptposter_01.png">
@@ -196,8 +231,8 @@
             <h3 class="subHeading">Concept 3. Share de chef</h3>
             <img class="w-100" src="./img/Poster_Share_de_Chef.png">
           </div>
-          <h3 class="subHeading">Wij gaan door met:</h3>
-          <img src="./img/sjef-logo-def.svg">
+          <h3 style="margin-bottom:80px">Wij gaan door met:</h3>
+          <img style="margin-bottom:80px" src="./img/sjef-logo-def.svg">
           <p>Na de presentatie bij de opdrachtgever en verkregen gerichte feedback, hebben wij besloten omv erder te gaan met het
           concept ‘Sjef’. Sjef sluit het beste aan bij de vraag van de opdrachtgever.</p>
 
@@ -211,27 +246,113 @@
           <div class="titleContainer">
             <h2 class="sectionTitle titleNumber">Prototyping</h2>
             <h2 class="opacityNumber titleNumber" id="prototyping">04</h2>
+            <!-- <div style="
+              background: rgba(255,232,55,0.70);
+              position: absolute;
+              height: 606px;
+              width: 606px;
+              border-radius: 50%;
+              left: 400px;
+              top: -400px;
+              z-index: -1;
+            "></div> -->
           </div>
           <h3 class="subHeading">Schetsen</h3>
-          <img class="w-100" src="./img/schetsen.png">
+          <img style="margin-top:55px;margin-bottom:55px" class="w-100" src="./img/schetsen.png">
           <p>Schetsen waren de eerste stap om de outlines van onze applicatie duidelijk te krijgen en zodat men een beeld kon
           schetsen hoe de applicatie er visueel uit zou komen te zien.</p>
           
-          <h3 class="subHeading">Wireframes</h3>
-          <p>Deze visuele gids vertegenwoordigd het geraamte van de app. Het heeft ons geholpen om de Interface elementen te kunnen
+          <h3 style="margin-top:50px;margin-bottom:65px">Wireframes</h3>
+          <p style="margin-bottom:40px">Deze visuele gids vertegenwoordigd het geraamte van de app. Het heeft ons geholpen om de Interface elementen te kunnen
           orderen waneer we meer op de functionaliteit gefocust waren dan op hoe de app er eindstand uit zou zien. A.d.hv. van
           wireframes hebben we snel en gemakkelijk kunnen testen zodat het voor ons duidelijk was of we de toegepaste elementen
           wel juist gebruikten.</p>
-          <div class="row">
-            <div class="col-sm-6">
-              <img class="w-100" src="./img/wireframe1.png" alt="Home Scherm">
-            </div>
-            <div class="col-sm-6">
-              <img class="w-100" src="./img/wireframe2.png" alt="Recept Scherm">
-            </div>
-          </div>
 
+          <img style="margin-right:25px;" src="./img/wireframe1.png" alt="Home Scherm">
+          <img src="./img/wireframe2.png" alt="Recept Scherm">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container text-center">
+        <h2>We killed our darling</h2>
+        <h3 style="margin-top: 20px;margin-bottom:60px;">Wireframes</h3>
+        <h3 class="subHeading">Wat is er gebeurd?</h3>
+        <p>Tijdens de design crit hebben wij als team met een proffesional het gehad over ons concept. Hij gaf aan dat hij ons
+        concept te oppervlakkig vond en dat het geen ziel had. Wat is het verhaal achter het concept en hoe beantwoorden we de
+        vraag waarom we de app maken? Aan de hand van de gegeven feedback zijn wij ons concept opnieuw invulling gaan geven en
+        kan de ‘Waarom-vraag’ beantwoord worden.</p>
+        <p>‘Wij willen starters verantwoord en goedkoper later koken.</p>
+        <p>Als team zijn we opnieuw gaan brainstormen hoe we een kloppend product neer gaan zetten welke beter aansluit bij het
+        gedane onderzoek en de vraag vanuit de opdrachtgever. Dit heeft de nodige tijd en energie gekost en hebben we besloten
+        verder te gaan op een besparende, anti-foodwaste app. Binnen de app is de mogelijkheid om voedsel bij winkels in uw
+        nabije omgeving voor een goedkope prijs te reserveren omdat deze anders over datum gaan en worden weggegooid. A.d.h.v.
+        deze gekochte producten worden recepten gegenereerd voor de gebruiker.</p>
+        <h3 style="margin-top:70px; margin-bottom:35px;">Wireframes versie 2</h3>
+        <img style="margin-right:25px" src="./img/wireframe2-1.png">
+        <img src="./img/wireframe2-2.png">
+
+
+        <h3 style="margin-top: 60px;">Naam en Logo</h3>
+        <p>Sjef is een speelse interpretatie van het woord Chef. Zonder al te veel af te wijken van de betekenis van het woord
+        Chef krijg je met Sjef nog steeds het idee dat het met koken te maken heeft. Omdat de voornaamste doelgroep jongeren
+        betreft hopen we met de speelse uitspraak Sjef deze groep meer aan te spreken. Omdat Sjef ook als roepnaam gebruikt kan
+        worden "Hey Sjefke, alles goed?" Hopen we zo dat de naam Sjef snel aanslaat wat de promoting van de app kan bevorderen.</p>
+        <p>Het logo zelf is voor het hergebruik van producten die in de app worden aangeboden. Deze producten worden gered d.m.v.
+        de app en zouden anders weggegooid worden. De spatels symboliseren uiteraard keukengerei welke gebruikt worden bij het
+        koken.</p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="titleContainer">
+            <h2 class="sectionTitle titleNumber">Onboarding</h2>
+            <h2 class="opacityNumber titleNumber" id="onboarding">05</h2>
+          </div>
+          <h3 style="margin-top:50px; margin-bottom:50px;">Home & Product pagina</h3>
+          <img src="./img/hpscherm1.png">
+          <img src="./img/hpscherm2.png">
+          <p style="margin-top:30px">Home schermen worden zo ontwikkeld dat het voor de gebruiker gemakkelijk en overzichterlijk is. Op het homescherm is
+          een overzicht van producten en winkels bij hem/haar in de buurt te zien. Dit geeft voor de gebruiker een overview wat
+          er beschikbaar is bij hem/haar in de buurt.</p>
+          <p>De middelste button navigeert naar de product pagina. Op deze pagina heeft de gebruiker een overzicht van producten
+          geselecteerd op filters naar zijn of haar wensen. Deze producten zijn gemakkelijk toe te voegen aan de boodschappen
+          lijst.</p>
+
+          <h3 style="margin-top:80px; margin-bottom:40px">Voucher Pagina</h3>
+          <div>
+            <img src="./img/voucherScherm1.png">
+            <img src="./img/voucherScherm2.png">
+            <img src="./img/voucherScherm3.png">
+          </div>
           
+          <p style="margin-top:40px; margin-bottom:100px">Op de Voucher pagina krijgt de gebruiker een duidelijk overzicht welke ingredienten hij geselecteerd heeft om af te
+          halen. Overzichten welke de gebruiker te zien krijgt zijn ‘Geldig’ ‘Betalen’ en ‘Afgehaald. De gebruiker heeft de
+          mogelijkheid een product apart te betalen of om alle geselecteerde producten in 1 keer te betalen. Wanneer hij/zij deze
+          betaald heeft kan hij deze ophalen bij de desbetreffende locatie.</p>
+
+          <h3 style="margin-bottom:50px;">Recepten Pagina</h3>
+          <img src="./img/ReceptenScherm1.png">
+          <img src="./img/ReceptenScherm2.png">
+          <img src="./img/ReceptenScherm3.png">
+          <img src="./img/ReceptenScherm4.png">
+          <p style="margin-top:40px;margin-bottom:150px">Op de recepten pagina krijgt de gebruiker gericht recepten te zien welke hij/zij kan maken met de ingredienten welke
+          hij/zij gereserveerd heeft bij de desbetreffende winkels. Deze recepten kan de gebruiker gemakkelijk downvoten als
+          hij/zij dit niks vindt. Hiermee zal een volgende keer rekening gehouden worden. Waneer de gebruiker kiest voor een
+          recept kan er gekozen worden voor hoeveel personen het gerecht bereidt moet gaan worden. Daarnaast kan in de app een
+          boodschappenlijstje worden aangemaakt met de ingredienten welke nog missen naast de al gereserveerde producten. Zo kan
+          de gebruiker op een overzichtelijke, verantwoorde en goedkope manier boodschappen doen!</p>
+
+          <h3 style="margin-bottom:30px">Eventuele toekomstige toepassingen</h3>
+          <p>- Recepten aanbieden stap voor stap.</p>
+          <p>- Recepten kunnen delen.</p>
+          <p>- Recepten kunnen toevoegen.</p>
+          <p>- Profiel pagina binnen de app.</p>
 
         </div>
       </div>
